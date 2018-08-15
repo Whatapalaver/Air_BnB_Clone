@@ -10,7 +10,8 @@
     "cypress:open": "cypress open",
     "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose",
     "buildDB": "jake --jakefile jake.js makeDatabases",
-    "dropDB": "jake --jakefile jake.js dropDatabases"
+    "dropDB": "jake --jakefile jake.js dropDatabases",
+    "insertData": "jake --jakefile jake.js insertData"
   },
   "repository": {
     "type": "git",

@@ -106,6 +106,8 @@ $ npm install
 1. Create the databases and tables
 In order to start the app you will need to create the databases that the server will connect to. To do this you can use a helpful script which has been defined in the package.json file. Simply run `npm run buildDB`. This should create both a development and test database called popanola and testpopanola. It will also create a table called listings inside each of these databases.
 
+To insert dummy data into these databases run `npm run insertData`
+
 To drop these tables run `npm run dropDB`
 
 2. Start local server by running `node server.js`

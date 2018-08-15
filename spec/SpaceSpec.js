@@ -10,7 +10,7 @@ describe('Airbnb', function(){
   describe('adding', function(){
 
     it('should let an owner add a space to the database', function(){
-      space.addSpace("Makers Academy", "A coding bootcamp" "Daniel", 10, 7777777777);
+      space.addSpace("Makers Academy", "A coding bootcamp", "14 windmill road SW18 2EU", "Daniel", 10);
       expect(space.viewSpaces()).toContain("14 windmill road SW18 2EU");
     });
 

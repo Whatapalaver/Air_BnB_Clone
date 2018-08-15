@@ -21,3 +21,13 @@ task('dropDatabases', { async: true }, function () {
     complete()
   })
 })
+
+task('insertData', { async: true }, function () {
+  var cmds = [
+    'node models/dummyData.js'
+  ]
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('All tests passed.')
+    complete()
+  })
+})
