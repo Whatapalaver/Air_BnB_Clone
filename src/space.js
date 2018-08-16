@@ -9,9 +9,10 @@ var path = require('path');
 
 
 
-var Space = function(){
 
-};
+function Space(){
+
+}
 
 Space.prototype.addSpace = function(query, params){
   clientDev.connect();
@@ -26,4 +27,4 @@ Space.prototype.addSpace = function(query, params){
   //   })
   // }
 
-module.exports = Space;
+module.exports = Space
